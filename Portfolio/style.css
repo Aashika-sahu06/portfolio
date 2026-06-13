@@ -518,3 +518,19 @@ footer {
         align-items: center;
     }
 }
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #00d4ff;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #00a8cc;
+    transform: translateY(-2px);
+}
